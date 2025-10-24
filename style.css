@@ -1,0 +1,93 @@
+/* Structure globale pour coller le footer en bas */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background-color: #0f172a; /* Bleu nuit */
+  color: #f1f5f9; /* Texte clair */
+}
+
+/* Le contenu principal pousse le footer vers le bas */
+.container {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Header et footer */
+header, footer {
+  background-color: #1e293b; /* Bleu foncé/gris ardoise */
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Image dans le header */
+header img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* Liens de navigation */
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #38bdf8; /* Bleu clair */
+  font-weight: bold;
+}
+
+/* Boîtes de contenu */
+.boite {
+  background-color: #f8fafc; /* Blanc cassé */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  color: #0f172a; /* Texte foncé */
+}
+
+/* Mise en page en colonnes */
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+.flex > div {
+  flex: 1;
+}
+
+/* Formulaire */
+input, textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10%;
+  border: 1px solid #cbd5e1; /* Gris clair */
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #38bdf8; /* Bleu clair */
+  color: #0f172a;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a {
+  color :#38bdf8;
+
+}
+
+iframe {
+  width: 95%;
+  border: none;
+}
+
+
+
